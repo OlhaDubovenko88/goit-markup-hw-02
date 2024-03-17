@@ -5,39 +5,157 @@ body{
 }
 
 .header-logo{
-text-decoration: none;
-font-family: raleway,sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 0.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    text-decoration: none;
+    font-family: raleway,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.logo-web{
+.header-logo-web{
     color: #4d5ae5
 }
 .header-info{
     list-style: none;
-}
-.header-info .info-link{
-    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.header-info .info-link{
+    text-decoration: none;
+}
 .address-list{
     list-style: none;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-.address-list .address-link{
-
-    
+.address-list .address-link {
     text-decoration: none;
-    text
-    font-weight: 400
+}
+.address-list .address-link:hover, .address-list .address-link:focus{
+    color: #404bbf;
+} 
+.head-section{
+    background-color: #2e2f42;
+}
+.main-head{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.button{
+    cursor: pointer;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.button:hover, .button:focus{
+    background-color: #404bbf;
+}
+.feature-list{
+    list-style: none;
+}
+.feature-item-head{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.feature-text{
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.our-team-section{
+    background-color: #f4f4fd;
+}
+.our-team-head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    
+}
+.our-team-list{
+    list-style: none;
+}
+.our-team-photo{
+    width: 264px;
+    height: 260px;
+}
+.our-team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;  
+}
+.our-team-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.our-portfolio-head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.our-portfolio-list{
+    list-style: none;
+}
+.our-portfolio-photo{
+    width: 360px;
+    height: 300px;
+}
+.our-portfolio-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.our-portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer{
+    background-color: #2e2f42;;
+}
+.footer-logo{
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;;
+}
+.footer-logo-web{
+   color: #4d5ae5;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
