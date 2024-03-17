@@ -1,3 +1,43 @@
 body{
-    font-family: ;
+    font-family: roboto, vernada, sans-serif;
+    color: #2e2f42;
+    background-color:#fff;
+}
+
+.header-logo{
+text-decoration: none;
+font-family: raleway,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 0.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-web{
+    color: #4d5ae5
+}
+.header-info{
+    list-style: none;
+}
+.header-info .info-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-list{
+    list-style: none;
+}
+.address-list .address-link{
+
+    
+    text-decoration: none;
+    text
+    font-weight: 400
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
